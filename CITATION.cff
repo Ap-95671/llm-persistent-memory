@@ -7,3 +7,4 @@ authors:
     given-names: Abhishek
 repository-code: "https://github.com/Ap-95671/llm-persistent-memory"
 abstract: "Experimental research code and a preserved synthetic evaluation; public-benchmark and privacy-effectiveness evaluations remain pending."
+license: MIT
