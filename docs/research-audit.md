@@ -19,3 +19,7 @@ The historical recent-context baseline was not weakened after seeing outcomes: i
 The 0.60 retrieval F1 needs additional caution: stable/cross/temporal cases have only two eligible memories with k=3, updated cases three, and distractor cases four. High recall on this tiny candidate set does not establish scalable retrieval quality.
 
 The old `total_latency_ms` excludes embedding and store construction performed before the condition loop. Do not call it complete end-to-end latency. Conditions ran in fixed order, so cache/warm-up differences prevent causal latency comparisons. Historical normal intervals are retained for provenance, not endorsed as calibrated binary confidence bounds. The new Wilson intervals are bounded; paired bootstrap resamples cases, never repeated deterministic calls. Templated/nonrandom data limits their inferential meaning.
+
+## Preparation environment correction
+
+The added SciPy 1.15.2 wheel failed to load on the preparation Mac when testing historical statistics. SciPy is now pinned to 1.16.3, whose exact-binomial function and historical paired results were verified locally. This is a reproduction-environment change, not a change to the preserved historical measurements or recorded original environment.
