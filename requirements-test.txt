@@ -1,0 +1,5 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+faiss-cpu==1.10.0
+pytest==8.3.5

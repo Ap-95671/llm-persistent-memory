@@ -1,0 +1,11 @@
+# Policy, adversary and limitations
+
+The research problem is choosing what to retain, update, reject or forget subject to explicit purpose, consent, sensitivity and expiry constraints. `Candidate` is the extractor interface. `RetentionPolicy` is a replaceable decision interface. The implemented policy rejects missing consent, sensitive labels, unsupported purposes, future observations and excessive/expired retention. A newer eligible candidate replaces the same owner/key; stale or duplicate observations are rejected. Retrieval reapplies policy and owner/purpose filters. Forget performs logical row deletion.
+
+Trusted components: authenticated caller, candidate labelling, database process and clock. The prototype **does not implement authentication**. Owner IDs cannot safely be accepted directly from untrusted users. Attackers controlling input text can cause extraction errors or prompt injection; the current prototype does not automatically extract text or classify secrets. Incorrect trusted labels defeat the policy. Explicit schema fields are test inputs, not proof of valid real-world consent.
+
+SQLite is plaintext. Logical deletion cannot erase WAL files, free pages, backups, model-provider copies or previously retrieved context. There is no formal privacy guarantee, encryption, distributed revocation, consent ledger, anti-replay tombstone, GDPR compliance claim or protected production deployment. Forgetting can be undone by re-ingestion unless upstream revocation/replay control is added. Expired rows stop being retrievable; call `purge_expired` to remove them logically.
+
+Lexical ranking is a functional demonstration only. The semantic FAISS experiment remains a separate subsystem; adjudication has not yet been integrated into its inference runner. Neither subsystem should be used for real private conversations in its present research state.
+
+Privacy evaluation needs separately authored labels: retention eligibility, purpose, expiry, latest fact, deletion request, and allowed answer sources. Report retention false positives/negatives, forbidden retrieval, stale-update errors and useful recall jointly. Benchmark evidence labels do not automatically define a privacy policy. Retention restriction can make an otherwise answerable question appropriately unanswerable; report that trade-off rather than silently dropping those questions.

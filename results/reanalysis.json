@@ -1,0 +1,76 @@
+{
+  "kind": "reanalysis of preserved outputs; inference not rerun",
+  "source_sha256": "6cddbc6a6fd0c0300fe50d54419259284c0c8e5aae31d073da069d64fd32c102",
+  "summary": {
+    "full_history": {
+      "n": 80,
+      "correct": 76,
+      "accuracy": 0.95,
+      "accuracy_wilson95": [
+        0.8783772379535698,
+        0.9803864454644556
+      ],
+      "input_tokens_mean": 229.4875
+    },
+    "recent_context": {
+      "n": 80,
+      "correct": 0,
+      "accuracy": 0.0,
+      "accuracy_wilson95": [
+        0.0,
+        0.0458181295355271
+      ],
+      "input_tokens_mean": 75.675
+    },
+    "semantic_memory": {
+      "n": 80,
+      "correct": 76,
+      "accuracy": 0.95,
+      "accuracy_wilson95": [
+        0.8783772379535698,
+        0.9803864454644556
+      ],
+      "input_tokens_mean": 195.3
+    },
+    "semantic_temporal_memory": {
+      "n": 80,
+      "correct": 76,
+      "accuracy": 0.95,
+      "accuracy_wilson95": [
+        0.8783772379535698,
+        0.9803864454644556
+      ],
+      "input_tokens_mean": 195.3
+    }
+  },
+  "comparisons": [
+    {
+      "a": "semantic_memory",
+      "b": "full_history",
+      "paired_accuracy_difference": 0,
+      "stratified_paired_bootstrap95": [
+        -0.0625,
+        0.0625
+      ],
+      "resamples": 10000,
+      "seed": 20261102
+    },
+    {
+      "a": "semantic_temporal_memory",
+      "b": "semantic_memory",
+      "paired_accuracy_difference": 0,
+      "stratified_paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "resamples": 10000,
+      "seed": 20261102
+    }
+  ],
+  "limitations": [
+    "Synthetic templates, not a random population sample; intervals describe conditional case variability.",
+    "No privacy-policy, Mem0, LongMemEval or LoCoMo score is present.",
+    "Fixed condition order confounds latency; recorded total excludes precomputed embeddings and indexing.",
+    "Recent-context targets were deliberately outside its window; zero accuracy is a dataset design consequence."
+  ]
+}

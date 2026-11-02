@@ -1,0 +1,5605 @@
+{
+  "random_seed": 20260824,
+  "cases": [
+    {
+      "id": "stable-01",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-01-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-02T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my backend language is Kotlin."
+        },
+        {
+          "id": "stable-01-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-02T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-01-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-02T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-01-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-02T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-01-m01"
+      ],
+      "evaluation_query": "Which language did I choose for backend work?",
+      "expected_answer": "Kotlin",
+      "acceptable_answers": [
+        "Kotlin"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-01-m01"
+      ]
+    },
+    {
+      "id": "stable-02",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-02-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-03T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my accessibility testing tool is Axe."
+        },
+        {
+          "id": "stable-02-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-03T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-02-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-03T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-02-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-03T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-02-m01"
+      ],
+      "evaluation_query": "What tool do I prefer for accessibility checks?",
+      "expected_answer": "Axe",
+      "acceptable_answers": [
+        "Axe"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-02-m01"
+      ]
+    },
+    {
+      "id": "stable-03",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-03-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-04T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my database is PostgreSQL."
+        },
+        {
+          "id": "stable-03-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-04T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-03-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-04T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-03-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-04T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-03-m01"
+      ],
+      "evaluation_query": "Which database did I settle on?",
+      "expected_answer": "PostgreSQL",
+      "acceptable_answers": [
+        "PostgreSQL"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-03-m01"
+      ]
+    },
+    {
+      "id": "stable-04",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-04-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-05T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my editor is Neovim."
+        },
+        {
+          "id": "stable-04-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-05T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-04-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-05T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-04-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-05T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-04-m01"
+      ],
+      "evaluation_query": "What editor did I say I use?",
+      "expected_answer": "Neovim",
+      "acceptable_answers": [
+        "Neovim"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-04-m01"
+      ]
+    },
+    {
+      "id": "stable-05",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-05-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-06T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my charting library is Plotly."
+        },
+        {
+          "id": "stable-05-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-06T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-05-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-06T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-05-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-06T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-05-m01"
+      ],
+      "evaluation_query": "Which charting library is my preference?",
+      "expected_answer": "Plotly",
+      "acceptable_answers": [
+        "Plotly"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-05-m01"
+      ]
+    },
+    {
+      "id": "stable-06",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-06-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-07T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my API style is GraphQL."
+        },
+        {
+          "id": "stable-06-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-07T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-06-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-07T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-06-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-07T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-06-m01"
+      ],
+      "evaluation_query": "What API style do I prefer?",
+      "expected_answer": "GraphQL",
+      "acceptable_answers": [
+        "GraphQL"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-06-m01"
+      ]
+    },
+    {
+      "id": "stable-07",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-07-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-08T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my unit test framework is Pytest."
+        },
+        {
+          "id": "stable-07-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-08T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-07-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-08T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-07-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-08T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-07-m01"
+      ],
+      "evaluation_query": "Which unit testing framework did I choose?",
+      "expected_answer": "Pytest",
+      "acceptable_answers": [
+        "Pytest"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-07-m01"
+      ]
+    },
+    {
+      "id": "stable-08",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-08-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-09T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my cloud region is Mumbai."
+        },
+        {
+          "id": "stable-08-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-09T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-08-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-09T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-08-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-09T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-08-m01"
+      ],
+      "evaluation_query": "Which cloud region did I select?",
+      "expected_answer": "Mumbai",
+      "acceptable_answers": [
+        "Mumbai"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-08-m01"
+      ]
+    },
+    {
+      "id": "stable-09",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-09-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-10T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my documentation format is Markdown."
+        },
+        {
+          "id": "stable-09-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-10T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-09-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-10T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-09-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-10T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-09-m01"
+      ],
+      "evaluation_query": "What format do I use for documentation?",
+      "expected_answer": "Markdown",
+      "acceptable_answers": [
+        "Markdown"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-09-m01"
+      ]
+    },
+    {
+      "id": "stable-10",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-10-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-11T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my package manager is Poetry."
+        },
+        {
+          "id": "stable-10-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-11T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-10-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-11T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-10-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-11T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-10-m01"
+      ],
+      "evaluation_query": "Which Python package manager do I prefer?",
+      "expected_answer": "Poetry",
+      "acceptable_answers": [
+        "Poetry"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-10-m01"
+      ]
+    },
+    {
+      "id": "stable-11",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-11-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-12T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my terminal shell is Zsh."
+        },
+        {
+          "id": "stable-11-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-12T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-11-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-12T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-11-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-12T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-11-m01"
+      ],
+      "evaluation_query": "What shell do I normally use?",
+      "expected_answer": "Zsh",
+      "acceptable_answers": [
+        "Zsh"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-11-m01"
+      ]
+    },
+    {
+      "id": "stable-12",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-12-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-13T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my CI service is GitHub Actions."
+        },
+        {
+          "id": "stable-12-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-13T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-12-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-13T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-12-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-13T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-12-m01"
+      ],
+      "evaluation_query": "Which CI service did I choose?",
+      "expected_answer": "GitHub Actions",
+      "acceptable_answers": [
+        "GitHub Actions"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-12-m01"
+      ]
+    },
+    {
+      "id": "stable-13",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-13-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-14T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my license is Apache 2.0."
+        },
+        {
+          "id": "stable-13-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-14T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-13-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-14T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-13-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-14T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-13-m01"
+      ],
+      "evaluation_query": "What license did I choose for the project?",
+      "expected_answer": "Apache 2.0",
+      "acceptable_answers": [
+        "Apache 2.0"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-13-m01"
+      ]
+    },
+    {
+      "id": "stable-14",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-14-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-15T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my monitoring tool is Grafana."
+        },
+        {
+          "id": "stable-14-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-15T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-14-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-15T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-14-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-15T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-14-m01"
+      ],
+      "evaluation_query": "Which monitoring tool do I prefer?",
+      "expected_answer": "Grafana",
+      "acceptable_answers": [
+        "Grafana"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-14-m01"
+      ]
+    },
+    {
+      "id": "stable-15",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-15-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-16T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my message broker is RabbitMQ."
+        },
+        {
+          "id": "stable-15-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-16T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-15-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-16T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-15-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-16T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-15-m01"
+      ],
+      "evaluation_query": "What message broker did I select?",
+      "expected_answer": "RabbitMQ",
+      "acceptable_answers": [
+        "RabbitMQ"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-15-m01"
+      ]
+    },
+    {
+      "id": "stable-16",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-16-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-17T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my CSS approach is CSS Modules."
+        },
+        {
+          "id": "stable-16-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-17T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-16-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-17T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-16-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-17T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-16-m01"
+      ],
+      "evaluation_query": "Which CSS approach do I prefer?",
+      "expected_answer": "CSS Modules",
+      "acceptable_answers": [
+        "CSS Modules"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-16-m01"
+      ]
+    },
+    {
+      "id": "stable-17",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-17-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-18T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my code formatter is Black."
+        },
+        {
+          "id": "stable-17-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-18T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-17-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-18T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-17-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-18T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-17-m01"
+      ],
+      "evaluation_query": "What code formatter did I select?",
+      "expected_answer": "Black",
+      "acceptable_answers": [
+        "Black"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-17-m01"
+      ]
+    },
+    {
+      "id": "stable-18",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-18-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-19T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my deployment platform is Fly.io."
+        },
+        {
+          "id": "stable-18-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-19T10:00:00+00:00",
+          "role": "user",
+          "text": "I reviewed the project notes."
+        },
+        {
+          "id": "stable-18-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-19T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-18-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-19T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-18-m01"
+      ],
+      "evaluation_query": "Where did I choose to deploy?",
+      "expected_answer": "Fly.io",
+      "acceptable_answers": [
+        "Fly.io"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-18-m01"
+      ]
+    },
+    {
+      "id": "stable-19",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-19-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-20T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my search engine is OpenSearch."
+        },
+        {
+          "id": "stable-19-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-20T10:00:00+00:00",
+          "role": "user",
+          "text": "We discussed routine scheduling."
+        },
+        {
+          "id": "stable-19-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-20T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-19-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-20T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-19-m01"
+      ],
+      "evaluation_query": "Which search engine did I choose?",
+      "expected_answer": "OpenSearch",
+      "acceptable_answers": [
+        "OpenSearch"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-19-m01"
+      ]
+    },
+    {
+      "id": "stable-20",
+      "category": "stable",
+      "history": [
+        {
+          "id": "stable-20-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-01-21T09:00:00+00:00",
+          "role": "user",
+          "text": "For future reference, my notebook environment is JupyterLab."
+        },
+        {
+          "id": "stable-20-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-01-21T10:00:00+00:00",
+          "role": "user",
+          "text": "I checked the latest task list."
+        },
+        {
+          "id": "stable-20-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-01-21T11:00:00+00:00",
+          "role": "user",
+          "text": "I also organized the shared workspace."
+        },
+        {
+          "id": "stable-20-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-01-21T12:00:00+00:00",
+          "role": "user",
+          "text": "No other preferences changed today."
+        }
+      ],
+      "target_historical_memory": [
+        "stable-20-m01"
+      ],
+      "evaluation_query": "What notebook environment do I prefer?",
+      "expected_answer": "JupyterLab",
+      "acceptable_answers": [
+        "JupyterLab"
+      ],
+      "ground_truth_memory_ids": [
+        "stable-20-m01"
+      ]
+    },
+    {
+      "id": "cross-01",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-01-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-11T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my conference badge name is A. Prajapati."
+        },
+        {
+          "id": "cross-01-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-11T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-01-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-18T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-01-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-18T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-01-m01"
+      ],
+      "evaluation_query": "What name should appear on my conference badge?",
+      "expected_answer": "A. Prajapati",
+      "acceptable_answers": [
+        "A. Prajapati"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-01-m01"
+      ]
+    },
+    {
+      "id": "cross-02",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-02-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-12T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my frequent flyer number is SKY-4821."
+        },
+        {
+          "id": "cross-02-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-12T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-02-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-19T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-02-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-19T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-02-m01"
+      ],
+      "evaluation_query": "What frequent-flyer number did I provide?",
+      "expected_answer": "SKY-4821",
+      "acceptable_answers": [
+        "SKY-4821"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-02-m01"
+      ]
+    },
+    {
+      "id": "cross-03",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-03-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-13T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my invoice currency is Singapore dollars."
+        },
+        {
+          "id": "cross-03-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-13T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-03-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-20T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-03-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-20T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-03-m01"
+      ],
+      "evaluation_query": "Which currency should my invoice use?",
+      "expected_answer": "Singapore dollars",
+      "acceptable_answers": [
+        "Singapore dollars"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-03-m01"
+      ]
+    },
+    {
+      "id": "cross-04",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-04-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-14T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my workshop room is Orchid Hall."
+        },
+        {
+          "id": "cross-04-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-14T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-04-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-21T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-04-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-21T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-04-m01"
+      ],
+      "evaluation_query": "Which room was assigned to my workshop?",
+      "expected_answer": "Orchid Hall",
+      "acceptable_answers": [
+        "Orchid Hall"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-04-m01"
+      ]
+    },
+    {
+      "id": "cross-05",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-05-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-15T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my backup contact is Mira Sen."
+        },
+        {
+          "id": "cross-05-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-15T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-05-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-22T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-05-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-22T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-05-m01"
+      ],
+      "evaluation_query": "Who is my backup contact?",
+      "expected_answer": "Mira Sen",
+      "acceptable_answers": [
+        "Mira Sen"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-05-m01"
+      ]
+    },
+    {
+      "id": "cross-06",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-06-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-16T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my shipping instruction is Leave with concierge."
+        },
+        {
+          "id": "cross-06-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-16T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-06-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-23T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-06-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-23T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-06-m01"
+      ],
+      "evaluation_query": "What delivery instruction did I give?",
+      "expected_answer": "Leave with concierge",
+      "acceptable_answers": [
+        "Leave with concierge"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-06-m01"
+      ]
+    },
+    {
+      "id": "cross-07",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-07-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-17T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my dietary preference is Jain vegetarian."
+        },
+        {
+          "id": "cross-07-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-17T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-07-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-24T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-07-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-24T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-07-m01"
+      ],
+      "evaluation_query": "What dietary preference did I record?",
+      "expected_answer": "Jain vegetarian",
+      "acceptable_answers": [
+        "Jain vegetarian"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-07-m01"
+      ]
+    },
+    {
+      "id": "cross-08",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-08-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-18T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my membership code is LM-7319."
+        },
+        {
+          "id": "cross-08-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-18T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-08-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-25T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-08-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-25T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-08-m01"
+      ],
+      "evaluation_query": "What is my membership code?",
+      "expected_answer": "LM-7319",
+      "acceptable_answers": [
+        "LM-7319"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-08-m01"
+      ]
+    },
+    {
+      "id": "cross-09",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-09-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-19T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my preferred timezone is Asia/Kolkata."
+        },
+        {
+          "id": "cross-09-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-19T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-09-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-26T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-09-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-26T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-09-m01"
+      ],
+      "evaluation_query": "Which timezone should schedules use?",
+      "expected_answer": "Asia/Kolkata",
+      "acceptable_answers": [
+        "Asia/Kolkata"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-09-m01"
+      ]
+    },
+    {
+      "id": "cross-10",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-10-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-20T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my locker number is B-214."
+        },
+        {
+          "id": "cross-10-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-20T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-10-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-27T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-10-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-27T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-10-m01"
+      ],
+      "evaluation_query": "Which locker was allocated to me?",
+      "expected_answer": "B-214",
+      "acceptable_answers": [
+        "B-214"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-10-m01"
+      ]
+    },
+    {
+      "id": "cross-11",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-11-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-21T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my support PIN is 583204."
+        },
+        {
+          "id": "cross-11-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-21T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-11-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-02-28T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-11-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-02-28T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-11-m01"
+      ],
+      "evaluation_query": "What support PIN did I save?",
+      "expected_answer": "583204",
+      "acceptable_answers": [
+        "583204"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-11-m01"
+      ]
+    },
+    {
+      "id": "cross-12",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-12-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-22T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my pickup point is Gate 3."
+        },
+        {
+          "id": "cross-12-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-22T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-12-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-01T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-12-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-01T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-12-m01"
+      ],
+      "evaluation_query": "Where should the driver pick me up?",
+      "expected_answer": "Gate 3",
+      "acceptable_answers": [
+        "Gate 3"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-12-m01"
+      ]
+    },
+    {
+      "id": "cross-13",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-13-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-23T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my reading group is Turing Circle."
+        },
+        {
+          "id": "cross-13-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-23T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-13-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-02T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-13-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-02T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-13-m01"
+      ],
+      "evaluation_query": "What is the name of my reading group?",
+      "expected_answer": "Turing Circle",
+      "acceptable_answers": [
+        "Turing Circle"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-13-m01"
+      ]
+    },
+    {
+      "id": "cross-14",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-14-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-24T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my lab desk is D-17."
+        },
+        {
+          "id": "cross-14-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-24T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-14-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-03T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-14-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-03T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-14-m01"
+      ],
+      "evaluation_query": "Which lab desk is mine?",
+      "expected_answer": "D-17",
+      "acceptable_answers": [
+        "D-17"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-14-m01"
+      ]
+    },
+    {
+      "id": "cross-15",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-15-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-25T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my printer queue is north-color."
+        },
+        {
+          "id": "cross-15-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-25T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-15-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-04T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-15-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-04T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-15-m01"
+      ],
+      "evaluation_query": "Which printer queue should I use?",
+      "expected_answer": "north-color",
+      "acceptable_answers": [
+        "north-color"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-15-m01"
+      ]
+    },
+    {
+      "id": "cross-16",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-16-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-26T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my repository alias is memory-lab."
+        },
+        {
+          "id": "cross-16-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-26T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-16-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-05T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-16-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-05T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-16-m01"
+      ],
+      "evaluation_query": "What alias did I assign the repository?",
+      "expected_answer": "memory-lab",
+      "acceptable_answers": [
+        "memory-lab"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-16-m01"
+      ]
+    },
+    {
+      "id": "cross-17",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-17-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-27T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my hotel booking code is H7Q2L9."
+        },
+        {
+          "id": "cross-17-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-27T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-17-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-06T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-17-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-06T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-17-m01"
+      ],
+      "evaluation_query": "What was my hotel booking code?",
+      "expected_answer": "H7Q2L9",
+      "acceptable_answers": [
+        "H7Q2L9"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-17-m01"
+      ]
+    },
+    {
+      "id": "cross-18",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-18-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-02-28T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my emergency phrase is silver maple."
+        },
+        {
+          "id": "cross-18-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-02-28T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-18-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-07T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-18-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-07T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-18-m01"
+      ],
+      "evaluation_query": "What emergency phrase did I specify?",
+      "expected_answer": "silver maple",
+      "acceptable_answers": [
+        "silver maple"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-18-m01"
+      ]
+    },
+    {
+      "id": "cross-19",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-19-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-01T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my grant cost centre is CC-8045."
+        },
+        {
+          "id": "cross-19-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-01T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-19-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-08T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-19-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-08T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-19-m01"
+      ],
+      "evaluation_query": "Which cost centre belongs on the grant expense?",
+      "expected_answer": "CC-8045",
+      "acceptable_answers": [
+        "CC-8045"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-19-m01"
+      ]
+    },
+    {
+      "id": "cross-20",
+      "category": "cross_session",
+      "history": [
+        {
+          "id": "cross-20-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-02T09:00:00+00:00",
+          "role": "user",
+          "text": "Please remember that my seminar track is Responsible AI."
+        },
+        {
+          "id": "cross-20-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-02T10:00:00+00:00",
+          "role": "user",
+          "text": "That concludes this session."
+        },
+        {
+          "id": "cross-20-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-09T09:00:00+00:00",
+          "role": "user",
+          "text": "I started a new session to plan next week's work."
+        },
+        {
+          "id": "cross-20-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-09T09:05:00+00:00",
+          "role": "user",
+          "text": "We can keep today's discussion brief."
+        }
+      ],
+      "target_historical_memory": [
+        "cross-20-m01"
+      ],
+      "evaluation_query": "Which seminar track did I register for?",
+      "expected_answer": "Responsible AI",
+      "acceptable_answers": [
+        "Responsible AI"
+      ],
+      "ground_truth_memory_ids": [
+        "cross-20-m01"
+      ]
+    },
+    {
+      "id": "updated-01",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-01-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-23T09:00:00+00:00",
+          "role": "user",
+          "text": "The project meeting is Monday."
+        },
+        {
+          "id": "updated-01-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-23T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-01-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-28T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the project meeting has changed to Wednesday; use this instead."
+        },
+        {
+          "id": "updated-01-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-28T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-01-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-03-28T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-01-m03"
+      ],
+      "evaluation_query": "When is my project meeting?",
+      "expected_answer": "Wednesday",
+      "acceptable_answers": [
+        "Wednesday"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-01-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-01-m01"
+      ]
+    },
+    {
+      "id": "updated-02",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-02-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-24T09:00:00+00:00",
+          "role": "user",
+          "text": "The release date is 12 September."
+        },
+        {
+          "id": "updated-02-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-24T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-02-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-29T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the release date has changed to 19 September; use this instead."
+        },
+        {
+          "id": "updated-02-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-29T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-02-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-03-29T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-02-m03"
+      ],
+      "evaluation_query": "What is the current release date?",
+      "expected_answer": "19 September",
+      "acceptable_answers": [
+        "19 September"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-02-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-02-m01"
+      ]
+    },
+    {
+      "id": "updated-03",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-03-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-25T09:00:00+00:00",
+          "role": "user",
+          "text": "The office floor is fourth floor."
+        },
+        {
+          "id": "updated-03-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-25T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-03-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-30T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the office floor has changed to sixth floor; use this instead."
+        },
+        {
+          "id": "updated-03-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-30T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-03-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-03-30T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-03-m03"
+      ],
+      "evaluation_query": "Which floor is my office on now?",
+      "expected_answer": "sixth floor",
+      "acceptable_answers": [
+        "sixth floor"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-03-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-03-m01"
+      ]
+    },
+    {
+      "id": "updated-04",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-04-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-26T09:00:00+00:00",
+          "role": "user",
+          "text": "The reviewer is Nadia."
+        },
+        {
+          "id": "updated-04-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-26T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-04-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-03-31T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the reviewer has changed to Omar; use this instead."
+        },
+        {
+          "id": "updated-04-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-03-31T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-04-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-03-31T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-04-m03"
+      ],
+      "evaluation_query": "Who is the current reviewer?",
+      "expected_answer": "Omar",
+      "acceptable_answers": [
+        "Omar"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-04-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-04-m01"
+      ]
+    },
+    {
+      "id": "updated-05",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-05-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-27T09:00:00+00:00",
+          "role": "user",
+          "text": "The demo time is 10:00 AM."
+        },
+        {
+          "id": "updated-05-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-27T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-05-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-01T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the demo time has changed to 2:30 PM; use this instead."
+        },
+        {
+          "id": "updated-05-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-01T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-05-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-01T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-05-m03"
+      ],
+      "evaluation_query": "What time is the demo now?",
+      "expected_answer": "2:30 PM",
+      "acceptable_answers": [
+        "2:30 PM"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-05-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-05-m01"
+      ]
+    },
+    {
+      "id": "updated-06",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-06-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-28T09:00:00+00:00",
+          "role": "user",
+          "text": "The dataset version is version 2."
+        },
+        {
+          "id": "updated-06-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-28T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-06-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-02T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the dataset version has changed to version 3; use this instead."
+        },
+        {
+          "id": "updated-06-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-02T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-06-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-02T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-06-m03"
+      ],
+      "evaluation_query": "Which dataset version should I use?",
+      "expected_answer": "version 3",
+      "acceptable_answers": [
+        "version 3"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-06-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-06-m01"
+      ]
+    },
+    {
+      "id": "updated-07",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-07-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-29T09:00:00+00:00",
+          "role": "user",
+          "text": "The train platform is platform 5."
+        },
+        {
+          "id": "updated-07-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-29T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-07-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-03T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the train platform has changed to platform 8; use this instead."
+        },
+        {
+          "id": "updated-07-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-03T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-07-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-03T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-07-m03"
+      ],
+      "evaluation_query": "Which platform should I go to?",
+      "expected_answer": "platform 8",
+      "acceptable_answers": [
+        "platform 8"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-07-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-07-m01"
+      ]
+    },
+    {
+      "id": "updated-08",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-08-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-30T09:00:00+00:00",
+          "role": "user",
+          "text": "The budget cap is $4,000."
+        },
+        {
+          "id": "updated-08-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-30T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-08-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-04T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the budget cap has changed to $5,500; use this instead."
+        },
+        {
+          "id": "updated-08-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-04T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-08-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-04T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-08-m03"
+      ],
+      "evaluation_query": "What is the revised budget cap?",
+      "expected_answer": "$5,500",
+      "acceptable_answers": [
+        "$5,500"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-08-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-08-m01"
+      ]
+    },
+    {
+      "id": "updated-09",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-09-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-03-31T09:00:00+00:00",
+          "role": "user",
+          "text": "The paper title is Memory at Scale."
+        },
+        {
+          "id": "updated-09-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-03-31T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-09-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-05T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the paper title has changed to Persistent Context; use this instead."
+        },
+        {
+          "id": "updated-09-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-05T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-09-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-05T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-09-m03"
+      ],
+      "evaluation_query": "What is the paper's current title?",
+      "expected_answer": "Persistent Context",
+      "acceptable_answers": [
+        "Persistent Context"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-09-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-09-m01"
+      ]
+    },
+    {
+      "id": "updated-10",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-10-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-01T09:00:00+00:00",
+          "role": "user",
+          "text": "The team lead is Isha."
+        },
+        {
+          "id": "updated-10-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-01T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-10-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-06T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the team lead has changed to Dev; use this instead."
+        },
+        {
+          "id": "updated-10-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-06T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-10-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-06T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-10-m03"
+      ],
+      "evaluation_query": "Who leads the team now?",
+      "expected_answer": "Dev",
+      "acceptable_answers": [
+        "Dev"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-10-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-10-m01"
+      ]
+    },
+    {
+      "id": "updated-11",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-11-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-02T09:00:00+00:00",
+          "role": "user",
+          "text": "The submission venue is ICML."
+        },
+        {
+          "id": "updated-11-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-02T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-11-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-07T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the submission venue has changed to NeurIPS; use this instead."
+        },
+        {
+          "id": "updated-11-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-07T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-11-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-07T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-11-m03"
+      ],
+      "evaluation_query": "Where are we submitting now?",
+      "expected_answer": "NeurIPS",
+      "acceptable_answers": [
+        "NeurIPS"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-11-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-11-m01"
+      ]
+    },
+    {
+      "id": "updated-12",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-12-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-03T09:00:00+00:00",
+          "role": "user",
+          "text": "The server port is 8080."
+        },
+        {
+          "id": "updated-12-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-03T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-12-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-08T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the server port has changed to 8443; use this instead."
+        },
+        {
+          "id": "updated-12-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-08T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-12-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-08T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-12-m03"
+      ],
+      "evaluation_query": "Which server port should be used now?",
+      "expected_answer": "8443",
+      "acceptable_answers": [
+        "8443"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-12-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-12-m01"
+      ]
+    },
+    {
+      "id": "updated-13",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-13-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-04T09:00:00+00:00",
+          "role": "user",
+          "text": "The sprint length is one week."
+        },
+        {
+          "id": "updated-13-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-04T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-13-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-09T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the sprint length has changed to two weeks; use this instead."
+        },
+        {
+          "id": "updated-13-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-09T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-13-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-09T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-13-m03"
+      ],
+      "evaluation_query": "What is our current sprint length?",
+      "expected_answer": "two weeks",
+      "acceptable_answers": [
+        "two weeks"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-13-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-13-m01"
+      ]
+    },
+    {
+      "id": "updated-14",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-14-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-05T09:00:00+00:00",
+          "role": "user",
+          "text": "The report format is DOCX."
+        },
+        {
+          "id": "updated-14-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-05T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-14-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-10T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the report format has changed to PDF; use this instead."
+        },
+        {
+          "id": "updated-14-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-10T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-14-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-10T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-14-m03"
+      ],
+      "evaluation_query": "Which report format is required now?",
+      "expected_answer": "PDF",
+      "acceptable_answers": [
+        "PDF"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-14-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-14-m01"
+      ]
+    },
+    {
+      "id": "updated-15",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-15-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-06T09:00:00+00:00",
+          "role": "user",
+          "text": "The sample size is 80 participants."
+        },
+        {
+          "id": "updated-15-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-06T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-15-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-11T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the sample size has changed to 120 participants; use this instead."
+        },
+        {
+          "id": "updated-15-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-11T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-15-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-11T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-15-m03"
+      ],
+      "evaluation_query": "What sample size are we targeting now?",
+      "expected_answer": "120 participants",
+      "acceptable_answers": [
+        "120 participants"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-15-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-15-m01"
+      ]
+    },
+    {
+      "id": "updated-16",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-16-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-07T09:00:00+00:00",
+          "role": "user",
+          "text": "The branch name is develop."
+        },
+        {
+          "id": "updated-16-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-07T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-16-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-12T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the branch name has changed to research; use this instead."
+        },
+        {
+          "id": "updated-16-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-12T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-16-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-12T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-16-m03"
+      ],
+      "evaluation_query": "Which branch should I work on now?",
+      "expected_answer": "research",
+      "acceptable_answers": [
+        "research"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-16-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-16-m01"
+      ]
+    },
+    {
+      "id": "updated-17",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-17-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-08T09:00:00+00:00",
+          "role": "user",
+          "text": "The venue is Room 201."
+        },
+        {
+          "id": "updated-17-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-08T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-17-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-13T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the venue has changed to Auditorium B; use this instead."
+        },
+        {
+          "id": "updated-17-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-13T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-17-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-13T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-17-m03"
+      ],
+      "evaluation_query": "Where will the event take place now?",
+      "expected_answer": "Auditorium B",
+      "acceptable_answers": [
+        "Auditorium B"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-17-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-17-m01"
+      ]
+    },
+    {
+      "id": "updated-18",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-18-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-09T09:00:00+00:00",
+          "role": "user",
+          "text": "The citation style is APA."
+        },
+        {
+          "id": "updated-18-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-09T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-18-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-14T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the citation style has changed to IEEE; use this instead."
+        },
+        {
+          "id": "updated-18-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-14T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-18-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-14T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-18-m03"
+      ],
+      "evaluation_query": "Which citation style should I use now?",
+      "expected_answer": "IEEE",
+      "acceptable_answers": [
+        "IEEE"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-18-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-18-m01"
+      ]
+    },
+    {
+      "id": "updated-19",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-19-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-10T09:00:00+00:00",
+          "role": "user",
+          "text": "The data retention is 30 days."
+        },
+        {
+          "id": "updated-19-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-10T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-19-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-15T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the data retention has changed to 90 days; use this instead."
+        },
+        {
+          "id": "updated-19-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-15T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-19-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-15T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-19-m03"
+      ],
+      "evaluation_query": "What is the updated retention period?",
+      "expected_answer": "90 days",
+      "acceptable_answers": [
+        "90 days"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-19-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-19-m01"
+      ]
+    },
+    {
+      "id": "updated-20",
+      "category": "updated",
+      "history": [
+        {
+          "id": "updated-20-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-04-11T09:00:00+00:00",
+          "role": "user",
+          "text": "The prototype color is blue."
+        },
+        {
+          "id": "updated-20-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-04-11T11:00:00+00:00",
+          "role": "user",
+          "text": "I noted that initial plan."
+        },
+        {
+          "id": "updated-20-m03",
+          "session_id": 2,
+          "turn": 3,
+          "timestamp": "2025-04-16T09:00:00+00:00",
+          "role": "user",
+          "text": "Update: the prototype color has changed to charcoal; use this instead."
+        },
+        {
+          "id": "updated-20-m04",
+          "session_id": 2,
+          "turn": 4,
+          "timestamp": "2025-04-16T10:00:00+00:00",
+          "role": "user",
+          "text": "I then reviewed unrelated action items."
+        },
+        {
+          "id": "updated-20-m05",
+          "session_id": 2,
+          "turn": 5,
+          "timestamp": "2025-04-16T11:00:00+00:00",
+          "role": "user",
+          "text": "The rest of the plan is unchanged."
+        }
+      ],
+      "target_historical_memory": [
+        "updated-20-m03"
+      ],
+      "evaluation_query": "What color is the current prototype?",
+      "expected_answer": "charcoal",
+      "acceptable_answers": [
+        "charcoal"
+      ],
+      "ground_truth_memory_ids": [
+        "updated-20-m03"
+      ],
+      "superseded_memory_ids": [
+        "updated-20-m01"
+      ]
+    },
+    {
+      "id": "temporal-01",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-01-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-02T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current on-call engineer is Leena."
+        },
+        {
+          "id": "temporal-01-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-04T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current on-call engineer became Ravi."
+        },
+        {
+          "id": "temporal-01-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-04T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-01-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-04T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-01-m02"
+      ],
+      "evaluation_query": "Who is currently on call?",
+      "expected_answer": "Ravi",
+      "acceptable_answers": [
+        "Ravi"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-01-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-01-m01"
+      ]
+    },
+    {
+      "id": "temporal-02",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-02-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-03T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest experiment run is run 14."
+        },
+        {
+          "id": "temporal-02-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-05T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest experiment run became run 18."
+        },
+        {
+          "id": "temporal-02-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-05T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-02-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-05T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-02-m02"
+      ],
+      "evaluation_query": "Which is the latest experiment run?",
+      "expected_answer": "run 18",
+      "acceptable_answers": [
+        "run 18"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-02-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-02-m01"
+      ]
+    },
+    {
+      "id": "temporal-03",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-03-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-04T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the active access code is NOVA-7."
+        },
+        {
+          "id": "temporal-03-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-06T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the active access code became EMBER-4."
+        },
+        {
+          "id": "temporal-03-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-06T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-03-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-06T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-03-m02"
+      ],
+      "evaluation_query": "What is the active access code?",
+      "expected_answer": "EMBER-4",
+      "acceptable_answers": [
+        "EMBER-4"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-03-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-03-m01"
+      ]
+    },
+    {
+      "id": "temporal-04",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-04-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-05T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current training phase is warm-up."
+        },
+        {
+          "id": "temporal-04-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-07T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current training phase became fine-tuning."
+        },
+        {
+          "id": "temporal-04-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-07T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-04-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-07T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-04-m02"
+      ],
+      "evaluation_query": "Which training phase is active?",
+      "expected_answer": "fine-tuning",
+      "acceptable_answers": [
+        "fine-tuning"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-04-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-04-m01"
+      ]
+    },
+    {
+      "id": "temporal-05",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-05-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-06T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the most recent backup is Tuesday."
+        },
+        {
+          "id": "temporal-05-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-08T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the most recent backup became Friday."
+        },
+        {
+          "id": "temporal-05-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-08T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-05-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-08T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-05-m02"
+      ],
+      "evaluation_query": "When was the most recent backup?",
+      "expected_answer": "Friday",
+      "acceptable_answers": [
+        "Friday"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-05-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-05-m01"
+      ]
+    },
+    {
+      "id": "temporal-06",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-06-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-07T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current duty station is Pune."
+        },
+        {
+          "id": "temporal-06-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-09T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current duty station became Bengaluru."
+        },
+        {
+          "id": "temporal-06-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-09T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-06-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-09T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-06-m02"
+      ],
+      "evaluation_query": "What is my current duty station?",
+      "expected_answer": "Bengaluru",
+      "acceptable_answers": [
+        "Bengaluru"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-06-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-06-m01"
+      ]
+    },
+    {
+      "id": "temporal-07",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-07-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-08T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest draft is draft 3."
+        },
+        {
+          "id": "temporal-07-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-10T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest draft became draft 6."
+        },
+        {
+          "id": "temporal-07-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-10T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-07-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-10T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-07-m02"
+      ],
+      "evaluation_query": "Which draft is the latest?",
+      "expected_answer": "draft 6",
+      "acceptable_answers": [
+        "draft 6"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-07-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-07-m01"
+      ]
+    },
+    {
+      "id": "temporal-08",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-08-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-09T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the active feature flag is beta-search."
+        },
+        {
+          "id": "temporal-08-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-11T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the active feature flag became memory-v2."
+        },
+        {
+          "id": "temporal-08-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-11T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-08-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-11T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-08-m02"
+      ],
+      "evaluation_query": "Which feature flag is active now?",
+      "expected_answer": "memory-v2",
+      "acceptable_answers": [
+        "memory-v2"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-08-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-08-m01"
+      ]
+    },
+    {
+      "id": "temporal-09",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-09-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-10T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current calibration is profile A."
+        },
+        {
+          "id": "temporal-09-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-12T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current calibration became profile C."
+        },
+        {
+          "id": "temporal-09-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-12T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-09-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-12T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-09-m02"
+      ],
+      "evaluation_query": "Which calibration profile is current?",
+      "expected_answer": "profile C",
+      "acceptable_answers": [
+        "profile C"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-09-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-09-m01"
+      ]
+    },
+    {
+      "id": "temporal-10",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-10-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-11T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest checkpoint is epoch 4."
+        },
+        {
+          "id": "temporal-10-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-13T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest checkpoint became epoch 9."
+        },
+        {
+          "id": "temporal-10-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-13T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-10-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-13T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-10-m02"
+      ],
+      "evaluation_query": "What is the latest checkpoint?",
+      "expected_answer": "epoch 9",
+      "acceptable_answers": [
+        "epoch 9"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-10-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-10-m01"
+      ]
+    },
+    {
+      "id": "temporal-11",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-11-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-12T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current semester is spring."
+        },
+        {
+          "id": "temporal-11-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-14T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current semester became autumn."
+        },
+        {
+          "id": "temporal-11-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-14T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-11-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-14T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-11-m02"
+      ],
+      "evaluation_query": "Which semester is current?",
+      "expected_answer": "autumn",
+      "acceptable_answers": [
+        "autumn"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-11-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-11-m01"
+      ]
+    },
+    {
+      "id": "temporal-12",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-12-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-13T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the active dataset snapshot is January."
+        },
+        {
+          "id": "temporal-12-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-15T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the active dataset snapshot became March."
+        },
+        {
+          "id": "temporal-12-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-15T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-12-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-15T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-12-m02"
+      ],
+      "evaluation_query": "Which dataset snapshot is active?",
+      "expected_answer": "March",
+      "acceptable_answers": [
+        "March"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-12-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-12-m01"
+      ]
+    },
+    {
+      "id": "temporal-13",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-13-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-14T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest survey wave is wave 1."
+        },
+        {
+          "id": "temporal-13-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-16T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest survey wave became wave 3."
+        },
+        {
+          "id": "temporal-13-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-16T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-13-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-16T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-13-m02"
+      ],
+      "evaluation_query": "Which survey wave is the latest?",
+      "expected_answer": "wave 3",
+      "acceptable_answers": [
+        "wave 3"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-13-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-13-m01"
+      ]
+    },
+    {
+      "id": "temporal-14",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-14-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-15T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current lab shift is morning."
+        },
+        {
+          "id": "temporal-14-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-17T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current lab shift became evening."
+        },
+        {
+          "id": "temporal-14-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-17T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-14-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-17T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-14-m02"
+      ],
+      "evaluation_query": "Which lab shift am I on now?",
+      "expected_answer": "evening",
+      "acceptable_answers": [
+        "evening"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-14-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-14-m01"
+      ]
+    },
+    {
+      "id": "temporal-15",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-15-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-16T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the active encryption key is key K2."
+        },
+        {
+          "id": "temporal-15-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-18T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the active encryption key became key K5."
+        },
+        {
+          "id": "temporal-15-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-18T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-15-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-18T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-15-m02"
+      ],
+      "evaluation_query": "Which encryption key is active?",
+      "expected_answer": "key K5",
+      "acceptable_answers": [
+        "key K5"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-15-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-15-m01"
+      ]
+    },
+    {
+      "id": "temporal-16",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-16-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-17T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current model endpoint is endpoint east."
+        },
+        {
+          "id": "temporal-16-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-19T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current model endpoint became endpoint south."
+        },
+        {
+          "id": "temporal-16-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-19T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-16-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-19T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-16-m02"
+      ],
+      "evaluation_query": "Which model endpoint is current?",
+      "expected_answer": "endpoint south",
+      "acceptable_answers": [
+        "endpoint south"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-16-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-16-m01"
+      ]
+    },
+    {
+      "id": "temporal-17",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-17-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-18T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest ethics approval is revision 1."
+        },
+        {
+          "id": "temporal-17-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-20T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest ethics approval became revision 4."
+        },
+        {
+          "id": "temporal-17-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-20T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-17-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-20T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-17-m02"
+      ],
+      "evaluation_query": "Which ethics approval revision is latest?",
+      "expected_answer": "revision 4",
+      "acceptable_answers": [
+        "revision 4"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-17-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-17-m01"
+      ]
+    },
+    {
+      "id": "temporal-18",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-18-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-19T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the current status page is status-old."
+        },
+        {
+          "id": "temporal-18-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-21T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the current status page became status-live."
+        },
+        {
+          "id": "temporal-18-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-21T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-18-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-21T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-18-m02"
+      ],
+      "evaluation_query": "Which status page is current?",
+      "expected_answer": "status-live",
+      "acceptable_answers": [
+        "status-live"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-18-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-18-m01"
+      ]
+    },
+    {
+      "id": "temporal-19",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-19-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-20T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the active annotation guide is guide 2.1."
+        },
+        {
+          "id": "temporal-19-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-22T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the active annotation guide became guide 2.4."
+        },
+        {
+          "id": "temporal-19-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-22T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-19-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-22T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-19-m02"
+      ],
+      "evaluation_query": "Which annotation guide is active?",
+      "expected_answer": "guide 2.4",
+      "acceptable_answers": [
+        "guide 2.4"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-19-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-19-m01"
+      ]
+    },
+    {
+      "id": "temporal-20",
+      "category": "temporal",
+      "history": [
+        {
+          "id": "temporal-20-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-05-21T09:00:00+00:00",
+          "role": "user",
+          "text": "As of this morning, the latest audit file is audit-April."
+        },
+        {
+          "id": "temporal-20-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-05-23T09:00:00+00:00",
+          "role": "user",
+          "text": "At the latest check, the latest audit file became audit-July."
+        },
+        {
+          "id": "temporal-20-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-05-23T10:00:00+00:00",
+          "role": "user",
+          "text": "The chronological log is authoritative."
+        },
+        {
+          "id": "temporal-20-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-05-23T11:00:00+00:00",
+          "role": "user",
+          "text": "I filed the remaining notes."
+        }
+      ],
+      "target_historical_memory": [
+        "temporal-20-m02"
+      ],
+      "evaluation_query": "Which audit file is the latest?",
+      "expected_answer": "audit-July",
+      "acceptable_answers": [
+        "audit-July"
+      ],
+      "ground_truth_memory_ids": [
+        "temporal-20-m02"
+      ],
+      "superseded_memory_ids": [
+        "temporal-20-m01"
+      ]
+    },
+    {
+      "id": "distractor-01",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-01-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-11T09:00:00+00:00",
+          "role": "user",
+          "text": "The production database is PostgreSQL."
+        },
+        {
+          "id": "distractor-01-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-11T10:00:00+00:00",
+          "role": "user",
+          "text": "SQLite for mobile tests"
+        },
+        {
+          "id": "distractor-01-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-11T11:00:00+00:00",
+          "role": "user",
+          "text": "MySQL for the legacy importer"
+        },
+        {
+          "id": "distractor-01-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-11T12:00:00+00:00",
+          "role": "user",
+          "text": "DuckDB for analysis"
+        },
+        {
+          "id": "distractor-01-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-11T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-01-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-11T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-01-m01"
+      ],
+      "evaluation_query": "Which database runs in production?",
+      "expected_answer": "PostgreSQL",
+      "acceptable_answers": [
+        "PostgreSQL"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-01-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-01-m02",
+        "distractor-01-m03",
+        "distractor-01-m04"
+      ]
+    },
+    {
+      "id": "distractor-02",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-02-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-12T09:00:00+00:00",
+          "role": "user",
+          "text": "The personal laptop color is midnight blue."
+        },
+        {
+          "id": "distractor-02-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-12T10:00:00+00:00",
+          "role": "user",
+          "text": "The office laptop is silver"
+        },
+        {
+          "id": "distractor-02-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-12T11:00:00+00:00",
+          "role": "user",
+          "text": "The tablet case is navy"
+        },
+        {
+          "id": "distractor-02-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-12T12:00:00+00:00",
+          "role": "user",
+          "text": "The monitor is black"
+        },
+        {
+          "id": "distractor-02-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-12T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-02-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-12T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-02-m01"
+      ],
+      "evaluation_query": "What color is my personal laptop?",
+      "expected_answer": "midnight blue",
+      "acceptable_answers": [
+        "midnight blue"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-02-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-02-m02",
+        "distractor-02-m03",
+        "distractor-02-m04"
+      ]
+    },
+    {
+      "id": "distractor-03",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-03-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-13T09:00:00+00:00",
+          "role": "user",
+          "text": "The primary email domain is research.example."
+        },
+        {
+          "id": "distractor-03-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-13T10:00:00+00:00",
+          "role": "user",
+          "text": "Alerts use ops.example"
+        },
+        {
+          "id": "distractor-03-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-13T11:00:00+00:00",
+          "role": "user",
+          "text": "Students use campus.example"
+        },
+        {
+          "id": "distractor-03-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-13T12:00:00+00:00",
+          "role": "user",
+          "text": "Archives use old.example"
+        },
+        {
+          "id": "distractor-03-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-13T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-03-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-13T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-03-m01"
+      ],
+      "evaluation_query": "What is my primary email domain?",
+      "expected_answer": "research.example",
+      "acceptable_answers": [
+        "research.example"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-03-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-03-m02",
+        "distractor-03-m03",
+        "distractor-03-m04"
+      ]
+    },
+    {
+      "id": "distractor-04",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-04-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-14T09:00:00+00:00",
+          "role": "user",
+          "text": "The main study language is English."
+        },
+        {
+          "id": "distractor-04-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-14T10:00:00+00:00",
+          "role": "user",
+          "text": "Consent forms include Hindi"
+        },
+        {
+          "id": "distractor-04-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-14T11:00:00+00:00",
+          "role": "user",
+          "text": "A pilot used Marathi"
+        },
+        {
+          "id": "distractor-04-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-14T12:00:00+00:00",
+          "role": "user",
+          "text": "The UI supports French"
+        },
+        {
+          "id": "distractor-04-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-14T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-04-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-14T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-04-m01"
+      ],
+      "evaluation_query": "What is the main study language?",
+      "expected_answer": "English",
+      "acceptable_answers": [
+        "English"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-04-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-04-m02",
+        "distractor-04-m03",
+        "distractor-04-m04"
+      ]
+    },
+    {
+      "id": "distractor-05",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-05-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-15T09:00:00+00:00",
+          "role": "user",
+          "text": "The production queue is jobs-critical."
+        },
+        {
+          "id": "distractor-05-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-15T10:00:00+00:00",
+          "role": "user",
+          "text": "Tests use jobs-dev"
+        },
+        {
+          "id": "distractor-05-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-15T11:00:00+00:00",
+          "role": "user",
+          "text": "Batch work uses jobs-bulk"
+        },
+        {
+          "id": "distractor-05-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-15T12:00:00+00:00",
+          "role": "user",
+          "text": "Old jobs used queue-v1"
+        },
+        {
+          "id": "distractor-05-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-15T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-05-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-15T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-05-m01"
+      ],
+      "evaluation_query": "Which queue handles production jobs?",
+      "expected_answer": "jobs-critical",
+      "acceptable_answers": [
+        "jobs-critical"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-05-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-05-m02",
+        "distractor-05-m03",
+        "distractor-05-m04"
+      ]
+    },
+    {
+      "id": "distractor-06",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-06-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-16T09:00:00+00:00",
+          "role": "user",
+          "text": "The preferred coffee is flat white."
+        },
+        {
+          "id": "distractor-06-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-16T10:00:00+00:00",
+          "role": "user",
+          "text": "Guests get espresso"
+        },
+        {
+          "id": "distractor-06-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-16T11:00:00+00:00",
+          "role": "user",
+          "text": "The lab stocks filter coffee"
+        },
+        {
+          "id": "distractor-06-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-16T12:00:00+00:00",
+          "role": "user",
+          "text": "Tea is served at meetings"
+        },
+        {
+          "id": "distractor-06-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-16T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-06-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-16T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-06-m01"
+      ],
+      "evaluation_query": "What coffee do I prefer?",
+      "expected_answer": "flat white",
+      "acceptable_answers": [
+        "flat white"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-06-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-06-m02",
+        "distractor-06-m03",
+        "distractor-06-m04"
+      ]
+    },
+    {
+      "id": "distractor-07",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-07-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-17T09:00:00+00:00",
+          "role": "user",
+          "text": "The primary phone is Pixel 9."
+        },
+        {
+          "id": "distractor-07-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-17T10:00:00+00:00",
+          "role": "user",
+          "text": "The test phone is an iPhone 13"
+        },
+        {
+          "id": "distractor-07-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-17T11:00:00+00:00",
+          "role": "user",
+          "text": "The lab phone is a Galaxy S22"
+        },
+        {
+          "id": "distractor-07-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-17T12:00:00+00:00",
+          "role": "user",
+          "text": "My old phone was a Pixel 6"
+        },
+        {
+          "id": "distractor-07-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-17T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-07-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-17T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-07-m01"
+      ],
+      "evaluation_query": "Which phone is my primary one?",
+      "expected_answer": "Pixel 9",
+      "acceptable_answers": [
+        "Pixel 9"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-07-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-07-m02",
+        "distractor-07-m03",
+        "distractor-07-m04"
+      ]
+    },
+    {
+      "id": "distractor-08",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-08-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-18T09:00:00+00:00",
+          "role": "user",
+          "text": "The main project codename is Juniper."
+        },
+        {
+          "id": "distractor-08-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-18T10:00:00+00:00",
+          "role": "user",
+          "text": "The pilot was Cedar"
+        },
+        {
+          "id": "distractor-08-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-18T11:00:00+00:00",
+          "role": "user",
+          "text": "The dashboard is Birch"
+        },
+        {
+          "id": "distractor-08-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-18T12:00:00+00:00",
+          "role": "user",
+          "text": "The archive is Pine"
+        },
+        {
+          "id": "distractor-08-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-18T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-08-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-18T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-08-m01"
+      ],
+      "evaluation_query": "What is the main project's codename?",
+      "expected_answer": "Juniper",
+      "acceptable_answers": [
+        "Juniper"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-08-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-08-m02",
+        "distractor-08-m03",
+        "distractor-08-m04"
+      ]
+    },
+    {
+      "id": "distractor-09",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-09-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-19T09:00:00+00:00",
+          "role": "user",
+          "text": "The production cache is Redis."
+        },
+        {
+          "id": "distractor-09-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-19T10:00:00+00:00",
+          "role": "user",
+          "text": "Tests use an in-memory cache"
+        },
+        {
+          "id": "distractor-09-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-19T11:00:00+00:00",
+          "role": "user",
+          "text": "The prototype used Memcached"
+        },
+        {
+          "id": "distractor-09-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-19T12:00:00+00:00",
+          "role": "user",
+          "text": "Browsers use local storage"
+        },
+        {
+          "id": "distractor-09-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-19T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-09-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-19T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-09-m01"
+      ],
+      "evaluation_query": "Which cache is used in production?",
+      "expected_answer": "Redis",
+      "acceptable_answers": [
+        "Redis"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-09-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-09-m02",
+        "distractor-09-m03",
+        "distractor-09-m04"
+      ]
+    },
+    {
+      "id": "distractor-10",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-10-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-20T09:00:00+00:00",
+          "role": "user",
+          "text": "The doctoral supervisor is Dr. Rao."
+        },
+        {
+          "id": "distractor-10-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-20T10:00:00+00:00",
+          "role": "user",
+          "text": "Dr. Shah reviews statistics"
+        },
+        {
+          "id": "distractor-10-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-20T11:00:00+00:00",
+          "role": "user",
+          "text": "Dr. Lim leads the lab"
+        },
+        {
+          "id": "distractor-10-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-20T12:00:00+00:00",
+          "role": "user",
+          "text": "Dr. Bose teaches the seminar"
+        },
+        {
+          "id": "distractor-10-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-20T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-10-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-20T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-10-m01"
+      ],
+      "evaluation_query": "Who is my doctoral supervisor?",
+      "expected_answer": "Dr. Rao",
+      "acceptable_answers": [
+        "Dr. Rao"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-10-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-10-m02",
+        "distractor-10-m03",
+        "distractor-10-m04"
+      ]
+    },
+    {
+      "id": "distractor-11",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-11-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-21T09:00:00+00:00",
+          "role": "user",
+          "text": "The final export folder is approved-exports."
+        },
+        {
+          "id": "distractor-11-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-21T10:00:00+00:00",
+          "role": "user",
+          "text": "Drafts go to draft-exports"
+        },
+        {
+          "id": "distractor-11-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-21T11:00:00+00:00",
+          "role": "user",
+          "text": "Logs go to export-logs"
+        },
+        {
+          "id": "distractor-11-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-21T12:00:00+00:00",
+          "role": "user",
+          "text": "Old exports are archived"
+        },
+        {
+          "id": "distractor-11-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-21T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-11-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-21T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-11-m01"
+      ],
+      "evaluation_query": "Which folder receives final exports?",
+      "expected_answer": "approved-exports",
+      "acceptable_answers": [
+        "approved-exports"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-11-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-11-m02",
+        "distractor-11-m03",
+        "distractor-11-m04"
+      ]
+    },
+    {
+      "id": "distractor-12",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-12-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-22T09:00:00+00:00",
+          "role": "user",
+          "text": "The primary evaluation metric is macro F1."
+        },
+        {
+          "id": "distractor-12-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-22T10:00:00+00:00",
+          "role": "user",
+          "text": "Latency uses milliseconds"
+        },
+        {
+          "id": "distractor-12-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-22T11:00:00+00:00",
+          "role": "user",
+          "text": "Loss uses cross entropy"
+        },
+        {
+          "id": "distractor-12-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-22T12:00:00+00:00",
+          "role": "user",
+          "text": "Pilot notes include accuracy"
+        },
+        {
+          "id": "distractor-12-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-22T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-12-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-22T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-12-m01"
+      ],
+      "evaluation_query": "What is the primary evaluation metric?",
+      "expected_answer": "macro F1",
+      "acceptable_answers": [
+        "macro F1"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-12-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-12-m02",
+        "distractor-12-m03",
+        "distractor-12-m04"
+      ]
+    },
+    {
+      "id": "distractor-13",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-13-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-23T09:00:00+00:00",
+          "role": "user",
+          "text": "The main Git remote is origin."
+        },
+        {
+          "id": "distractor-13-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-23T10:00:00+00:00",
+          "role": "user",
+          "text": "The mirror is backup"
+        },
+        {
+          "id": "distractor-13-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-23T11:00:00+00:00",
+          "role": "user",
+          "text": "Upstream tracks the template"
+        },
+        {
+          "id": "distractor-13-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-23T12:00:00+00:00",
+          "role": "user",
+          "text": "Archive is read-only"
+        },
+        {
+          "id": "distractor-13-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-23T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-13-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-23T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-13-m01"
+      ],
+      "evaluation_query": "Which Git remote is the main one?",
+      "expected_answer": "origin",
+      "acceptable_answers": [
+        "origin"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-13-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-13-m02",
+        "distractor-13-m03",
+        "distractor-13-m04"
+      ]
+    },
+    {
+      "id": "distractor-14",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-14-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-24T09:00:00+00:00",
+          "role": "user",
+          "text": "The production API host is api.prod.example."
+        },
+        {
+          "id": "distractor-14-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-24T10:00:00+00:00",
+          "role": "user",
+          "text": "Staging uses api.stage.example"
+        },
+        {
+          "id": "distractor-14-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-24T11:00:00+00:00",
+          "role": "user",
+          "text": "Docs use docs.example"
+        },
+        {
+          "id": "distractor-14-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-24T12:00:00+00:00",
+          "role": "user",
+          "text": "Metrics use metrics.example"
+        },
+        {
+          "id": "distractor-14-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-24T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-14-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-24T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-14-m01"
+      ],
+      "evaluation_query": "What is the production API host?",
+      "expected_answer": "api.prod.example",
+      "acceptable_answers": [
+        "api.prod.example"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-14-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-14-m02",
+        "distractor-14-m03",
+        "distractor-14-m04"
+      ]
+    },
+    {
+      "id": "distractor-15",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-15-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-25T09:00:00+00:00",
+          "role": "user",
+          "text": "The preferred plotting color is teal."
+        },
+        {
+          "id": "distractor-15-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-25T10:00:00+00:00",
+          "role": "user",
+          "text": "Warnings are orange"
+        },
+        {
+          "id": "distractor-15-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-25T11:00:00+00:00",
+          "role": "user",
+          "text": "Errors are red"
+        },
+        {
+          "id": "distractor-15-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-25T12:00:00+00:00",
+          "role": "user",
+          "text": "Baselines are grey"
+        },
+        {
+          "id": "distractor-15-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-25T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-15-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-25T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-15-m01"
+      ],
+      "evaluation_query": "Which plotting color do I prefer?",
+      "expected_answer": "teal",
+      "acceptable_answers": [
+        "teal"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-15-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-15-m02",
+        "distractor-15-m03",
+        "distractor-15-m04"
+      ]
+    },
+    {
+      "id": "distractor-16",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-16-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-26T09:00:00+00:00",
+          "role": "user",
+          "text": "The main interview room is Lotus 2."
+        },
+        {
+          "id": "distractor-16-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-26T10:00:00+00:00",
+          "role": "user",
+          "text": "Overflow uses Lotus 3"
+        },
+        {
+          "id": "distractor-16-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-26T11:00:00+00:00",
+          "role": "user",
+          "text": "Briefings use Iris 1"
+        },
+        {
+          "id": "distractor-16-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-26T12:00:00+00:00",
+          "role": "user",
+          "text": "Storage is beside Lotus 2"
+        },
+        {
+          "id": "distractor-16-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-26T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-16-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-26T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-16-m01"
+      ],
+      "evaluation_query": "Which room hosts the main interviews?",
+      "expected_answer": "Lotus 2",
+      "acceptable_answers": [
+        "Lotus 2"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-16-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-16-m02",
+        "distractor-16-m03",
+        "distractor-16-m04"
+      ]
+    },
+    {
+      "id": "distractor-17",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-17-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-27T09:00:00+00:00",
+          "role": "user",
+          "text": "The production model is Qwen2.5 3B."
+        },
+        {
+          "id": "distractor-17-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-27T10:00:00+00:00",
+          "role": "user",
+          "text": "Embeddings use MiniLM"
+        },
+        {
+          "id": "distractor-17-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-27T11:00:00+00:00",
+          "role": "user",
+          "text": "A baseline used Llama 3"
+        },
+        {
+          "id": "distractor-17-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-27T12:00:00+00:00",
+          "role": "user",
+          "text": "The draft mentions Qwen 7B"
+        },
+        {
+          "id": "distractor-17-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-27T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-17-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-27T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-17-m01"
+      ],
+      "evaluation_query": "Which model is used for production inference?",
+      "expected_answer": "Qwen2.5 3B",
+      "acceptable_answers": [
+        "Qwen2.5 3B"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-17-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-17-m02",
+        "distractor-17-m03",
+        "distractor-17-m04"
+      ]
+    },
+    {
+      "id": "distractor-18",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-18-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-28T09:00:00+00:00",
+          "role": "user",
+          "text": "The principal investigator is Prof. Menon."
+        },
+        {
+          "id": "distractor-18-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-28T10:00:00+00:00",
+          "role": "user",
+          "text": "Prof. Das owns the dataset"
+        },
+        {
+          "id": "distractor-18-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-28T11:00:00+00:00",
+          "role": "user",
+          "text": "Dr. Gill manages recruitment"
+        },
+        {
+          "id": "distractor-18-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-28T12:00:00+00:00",
+          "role": "user",
+          "text": "Prof. Menon also teaches NLP"
+        },
+        {
+          "id": "distractor-18-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-28T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-18-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-28T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-18-m01"
+      ],
+      "evaluation_query": "Who is the principal investigator?",
+      "expected_answer": "Prof. Menon",
+      "acceptable_answers": [
+        "Prof. Menon"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-18-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-18-m02",
+        "distractor-18-m03",
+        "distractor-18-m04"
+      ]
+    },
+    {
+      "id": "distractor-19",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-19-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-29T09:00:00+00:00",
+          "role": "user",
+          "text": "The primary backup region is Chennai."
+        },
+        {
+          "id": "distractor-19-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-29T10:00:00+00:00",
+          "role": "user",
+          "text": "Compute runs in Mumbai"
+        },
+        {
+          "id": "distractor-19-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-29T11:00:00+00:00",
+          "role": "user",
+          "text": "A replica exists in Delhi"
+        },
+        {
+          "id": "distractor-19-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-29T12:00:00+00:00",
+          "role": "user",
+          "text": "The team works from Pune"
+        },
+        {
+          "id": "distractor-19-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-29T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-19-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-29T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-19-m01"
+      ],
+      "evaluation_query": "Which region is the primary backup location?",
+      "expected_answer": "Chennai",
+      "acceptable_answers": [
+        "Chennai"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-19-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-19-m02",
+        "distractor-19-m03",
+        "distractor-19-m04"
+      ]
+    },
+    {
+      "id": "distractor-20",
+      "category": "distractor",
+      "history": [
+        {
+          "id": "distractor-20-m01",
+          "session_id": 1,
+          "turn": 1,
+          "timestamp": "2025-06-30T09:00:00+00:00",
+          "role": "user",
+          "text": "The final paper template is IEEE conference."
+        },
+        {
+          "id": "distractor-20-m02",
+          "session_id": 1,
+          "turn": 2,
+          "timestamp": "2025-06-30T10:00:00+00:00",
+          "role": "user",
+          "text": "The proposal used ACM"
+        },
+        {
+          "id": "distractor-20-m03",
+          "session_id": 1,
+          "turn": 3,
+          "timestamp": "2025-06-30T11:00:00+00:00",
+          "role": "user",
+          "text": "Slides use the lab theme"
+        },
+        {
+          "id": "distractor-20-m04",
+          "session_id": 1,
+          "turn": 4,
+          "timestamp": "2025-06-30T12:00:00+00:00",
+          "role": "user",
+          "text": "Notes are plain Markdown"
+        },
+        {
+          "id": "distractor-20-m05",
+          "session_id": 1,
+          "turn": 5,
+          "timestamp": "2025-06-30T14:00:00+00:00",
+          "role": "user",
+          "text": "I finished cataloguing these related details."
+        },
+        {
+          "id": "distractor-20-m06",
+          "session_id": 1,
+          "turn": 6,
+          "timestamp": "2025-06-30T15:00:00+00:00",
+          "role": "user",
+          "text": "Nothing else needs attention."
+        }
+      ],
+      "target_historical_memory": [
+        "distractor-20-m01"
+      ],
+      "evaluation_query": "Which template is used for the final paper?",
+      "expected_answer": "IEEE conference",
+      "acceptable_answers": [
+        "IEEE conference"
+      ],
+      "ground_truth_memory_ids": [
+        "distractor-20-m01"
+      ],
+      "distractor_memory_ids": [
+        "distractor-20-m02",
+        "distractor-20-m03",
+        "distractor-20-m04"
+      ]
+    }
+  ]
+}

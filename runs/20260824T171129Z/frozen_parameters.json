@@ -1,0 +1,12 @@
+{
+  "k": 3.0,
+  "alpha": 0.9,
+  "beta": 0.1,
+  "semantic_f1": 0.6,
+  "temporal_f1": 0.6,
+  "selection_score": 0.6,
+  "lambda": 0.08,
+  "threshold": null,
+  "selection_rule": "maximize mean pilot retrieval F1 across semantic and semantic-temporal strategies; tie-break by smaller k then larger alpha",
+  "pilot_case_count": 20
+}

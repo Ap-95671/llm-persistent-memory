@@ -1,0 +1,5 @@
+condition_a,condition_b,a_correct_b_wrong,a_wrong_b_correct,discordant_n,test,p_value,alpha,significant
+semantic_memory,recent_context,76,0,76,exact McNemar/binomial,2.6469779601696886e-23,0.05,True
+semantic_temporal_memory,recent_context,76,0,76,exact McNemar/binomial,2.6469779601696886e-23,0.05,True
+semantic_memory,full_history,3,3,6,exact McNemar/binomial,1.0,0.05,False
+semantic_temporal_memory,full_history,3,3,6,exact McNemar/binomial,1.0,0.05,False

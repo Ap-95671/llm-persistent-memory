@@ -1,0 +1,6 @@
+condition,failure_type,count,percentage_of_condition
+full_history,correct history supplied but answer incorrect,4,5.0
+recent_context,cross-session recall failure,16,20.0
+recent_context,target outside recent context,64,80.0
+semantic_memory,correct memory retrieved but answer incorrect,4,5.0
+semantic_temporal_memory,correct memory retrieved but answer incorrect,4,5.0

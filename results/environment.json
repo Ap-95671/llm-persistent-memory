@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-08-24T17:14:36.461268+00:00",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "hardware": {
+    "model_name": "MacBook Air",
+    "model_identifier": "Mac16,13",
+    "chip": "Apple M4",
+    "cores": "10 (4 Performance and 6 Efficiency)",
+    "memory": "16 GB"
+  },
+  "python": "3.11.16",
+  "ollama": "0.32.15",
+  "llm_model": "qwen2.5:3b",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "tokenizer_model": "Qwen/Qwen2.5-3B-Instruct",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "scikit-learn": "1.6.1",
+    "sentence-transformers": "3.4.1",
+    "faiss-cpu": "1.10.0",
+    "transformers": "4.49.0",
+    "torch": "2.6.0",
+    "requests": "2.32.3"
+  },
+  "disk_free_bytes": 346425319424
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Research software in progress; cite the specific commit used. No paper publication is claimed."
+title: "Persistent Memory Architectures for LLMs: Privacy-Constrained Memory Adjudication"
+type: software
+authors:
+  - family-names: Prajapati
+    given-names: Abhishek
+repository-code: "https://github.com/Ap-95671/llm-persistent-memory"
+abstract: "Experimental research code and a preserved synthetic evaluation; public-benchmark and privacy-effectiveness evaluations remain pending."

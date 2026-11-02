@@ -1,0 +1,2 @@
+# Optional: install in a separate environment; benchmark execution is pending.
+mem0ai==2.2.1

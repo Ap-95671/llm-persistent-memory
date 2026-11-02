@@ -1,0 +1,33 @@
+{
+  "status": "protocol draft; not a completed benchmark run",
+  "dataset_sha256": null,
+  "reader": {
+    "model": "qwen2.5:3b",
+    "digest": null,
+    "context_window": 8192,
+    "temperature": 0,
+    "top_p": 0.9,
+    "max_output_tokens": 48
+  },
+  "recent_turns": 2,
+  "history_token_budget": 7000,
+  "retrieval_limit": 3,
+  "seed": 20260824,
+  "concurrency": 1,
+  "conditions": [
+    "no_memory_recent_context",
+    "full_history",
+    "mem0_default_infer",
+    "privacy_adjudication",
+    "unconstrained_ablation"
+  ],
+  "judge": "official benchmark protocol; paid access requires authorization",
+  "mem0": {
+    "version": "2.2.1",
+    "configuration": null,
+    "live_verified": false
+  },
+  "costs": {
+    "paid_calls_authorized": false
+  }
+}
